@@ -46,7 +46,7 @@ public class StatsService {
         int middleSales = middleSumSales(sales);
 
         for (int s : sales) {
-            if (s > middleSales) {
+            if (s < middleSales) {
                 countMonth++;
             }
         }
